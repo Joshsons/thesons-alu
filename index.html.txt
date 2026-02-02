@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Theson's A.L.U | Alumanco & Aluminium Roofing</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0b0b0b;
+      color: #f8fafc;
+    }
+
+    header {
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #111111;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 22px;
+      color: #d4af37;
+    }
+
+    nav a {
+      color: #f8fafc;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: #d4af37;
+    }
+
+    .hero {
+      padding: 80px 40px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      color: #d4af37;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: 0 auto 30px;
+      color: #cbd5f5;
+    }
+
+    .hero button {
+      padding: 15px 35px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      background: #d4af37;
+      color: #111111;
+    }
+
+    .hero button:hover {
+      background: #b8962e;
+    }
+
+    .sections {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .card {
+      background: #111111;
+      padding: 25px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #d4af37;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .projects img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .social a {
+      color: #d4af37;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 16px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111111;
+      font-size: 14px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Theson's A.L.U</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Premium Alumanco & Aluminium Roofing</h2>
+  <p>
+    High-quality alumanco and aluminium roofing solutions for luxury homes,
+    estates, and commercial buildings. Built for clients who value quality,
+    durability, and clean finishing.
+  </p>
+  <a href="https://wa.me/234XXXXXXXXXX?text=Hello%20Theson's%20A.L.U%2C%20I%20am%20interested%20in%20your%20aluminium%20and%20roofing%20services." target="_blank">
+    <button>Chat with Us on WhatsApp</button>
+  </a>
+</section>
+
+<section id="services" class="sections">
+  <div class="card">
+    <h3>Alumanco Installation</h3>
+    <p>Premium alumanco doors, windows, and partitions with luxury finishing.</p>
+  </div>
+
+  <div class="card">
+    <h3>Aluminium Roofing</h3>
+    <p>Strong, stylish aluminium roofing for high-end residential and commercial projects.</p>
+  </div>
+
+  <div class="card">
+    <h3>Custom Aluminium Works</h3>
+    <p>Bespoke aluminium solutions for architects, developers, and wealthy clients.</p>
+  </div>
+</section>
+
+<section id="projects" class="projects">
+  <div class="card">
+    <img src="https://via.placeholder.com/400x250" alt="Project">
+    <p>Luxury Alumanco Installation</p>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/400x250" alt="Project">
+    <p>Premium Aluminium Roofing</p>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/400x250" alt="Project">
+    <p>Custom Aluminium Project</p>
+  </div>
+</section>
+
+<section id="contact" class="hero social">
+  <h2>Get a Quote Today</h2>
+  <p>Click below to chat with us directly on WhatsApp.</p>
+  <a href="https://wa.me/2349069336543?text=Hello%20Theson's%20A.L.U%2C%20I%20would%20like%20to%20request%20a%20quote." target="_blank">
+    <button>DM Us on WhatsApp</button>
+  </a>
+  <p style="margin-top:20px;">
+    <a href="#">Instagram</a>
+  </p>
+</section>
+
+<footer>
+  © 2026 Theson's A.L.U. All rights reserved.
+</footer>
+
+</body>
+</html>
+
